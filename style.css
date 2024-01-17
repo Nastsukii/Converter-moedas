@@ -6,11 +6,15 @@
     font-family: 'Roboto', sans-serif;
     outline: none;
 }
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
 
 body{
     background-color: #8A51FC;;
-
-    
 }
 .gif{
     margin: 20px auto;
@@ -22,7 +26,6 @@ main{
     border-radius: 20px;
     background: #F4F4F4;
     width: 375px;
-    margin: 0 auto;
     padding: 44px 24px 23px;
 }
 
@@ -34,7 +37,6 @@ label{
 
 select, input{
     cursor: pointer;
-
     border-radius: 4px;
     background: #FFF;
     border: 1px solid #BBB;
